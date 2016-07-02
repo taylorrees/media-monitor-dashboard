@@ -48,7 +48,7 @@ function find(collection, query, sort, limit, callback) {
 
 function status(req, res) {
   count(collection='tweets', (tweets) => {
-    count(collection='user', (users) => {
+    count(collection='users', (users) => {
       count(collection='archive', (archive) => {
         find(collection='tweets', {}, {'_id': -1}, 1, (lastTweets) => {
           res.json({
