@@ -1,0 +1,36 @@
+html,
+body {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.blocks {
+  width: 100%;
+  margin: 0px 12px;
+}
+
+.subtext {
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.2);
+}
+
+/* @class Block */
+
+.Block {
+  display: inline-block;
+  padding: 60px;
+  margin: 0px 12px 12px 0px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.Block__title {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Block__subtitle {
+  display: block;
+}

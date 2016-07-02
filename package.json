@@ -1,0 +1,24 @@
+{
+  "name": "media-monitor-dashboard",
+  "repository": "http://github.com/taylorrees/media-monitor-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard application for Media Monitor (see: https://github.com/taylorrees/media-monitor).",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Taylor Rees",
+  "license": "ISC"
+}
