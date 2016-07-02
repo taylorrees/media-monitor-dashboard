@@ -23,7 +23,6 @@ class Block extends React.Component {
 
 class Blocks extends React.Component {
   render() {
-
     return (
       <div className="blocks">
         <div className="blocks-wrapper">
