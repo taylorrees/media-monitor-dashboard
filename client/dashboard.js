@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'whatwg-fetch'
 
 document.title = 'Dashboard | Media Monitor'
 
@@ -123,7 +124,7 @@ class Dashboard extends React.Component {
     .then(data => this.setState({data: data}))
     .catch(e => console.log(e))
   }
-  
+
   componentDidMount() {
     this.update()
   }
