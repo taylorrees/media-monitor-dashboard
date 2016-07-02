@@ -44,7 +44,7 @@ body {
   font-size: 0.9rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:650px) {
   .Block {
     display: block;
     margin: 0px 0px 12px 0px;
