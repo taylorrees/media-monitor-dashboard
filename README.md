@@ -6,7 +6,7 @@ A web based dashboard to display the status of a running [media-monitor](https:/
 
 ### Getting Started
 
-To start the server
+Start the server
 ```javascript
 $ npm install
 $ npm start
