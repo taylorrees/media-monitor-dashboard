@@ -12,4 +12,4 @@ $ npm install
 $ npm start
 ```
 
-To view the dashboard: http://localhost:3000/
+[View the dashboard](http://localhost:3000/)
