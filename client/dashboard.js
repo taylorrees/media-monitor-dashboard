@@ -26,9 +26,11 @@ class Blocks extends React.Component {
 
     return (
       <div className="blocks">
-        <h2>{this.props.title}</h2>
-        <p className="subtext">Approx. 60 second delay</p>
-        <div>{this.props.blocks}</div>
+        <div className="blocks-wrapper">
+          <h2>{this.props.title}</h2>
+          <p className="subtext">Approx. 60 second delay</p>
+          <div>{this.props.blocks}</div>
+        </div>
       </div>
     )
   }
